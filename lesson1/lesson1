@@ -56,8 +56,3 @@ select * from cars where length(model) > 8;
 
 
 select * from cars where price > (select avg(price) from cars);
-
-
-
-
-
